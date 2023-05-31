@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  border: 1px solid black;
+  padding: 3rem 0;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.main .main-all .main-top {
+  border-bottom: 1px solid black;
+}
+.main .main-all .main-top ul li {
+  list-style: none;
+}
+.main .main-all .main-top ul li a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.main .main-all .main-top ul li a:hover {
+  color: blue;
+}
+.main .main-all .main-bottom {
+  padding: 2rem 0;
+}
+.main .main-all .main-bottom .main-bottom-top {
+  text-align: right;
+  margin-bottom: 15px;
+  color: blue;
+}
+.main .main-all .main-bottom form .going {
+  width: 500px;
+  border: 1px solid black;
+  padding: 0 12px;
+  border-radius: 7px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+}
+.main .main-all .main-bottom form .going .going-input {
+  border: none;
+  outline: none;
+  margin-left: 20px;
+}
+.main .main-all .main-bottom form .going span {
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+.main .main-all .main-bottom form .going i {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.main .main-all .main-bottom form .check-in {
+  width: 300px;
+  border: 1px solid black;
+  padding: 0 12px;
+  border-radius: 7px;
+  height: 60px;
+  position: relative;
+}
+.main .main-all .main-bottom form .check-in .check-in-input {
+  border: none;
+  outline: none;
+}
+.main .main-all .main-bottom form .check-in i {
+  position: absolute;
+  left: 7px;
+  top: 17px;
+  font-size: 20px;
+}
+.main .main-all .main-bottom form .check-in #in-label {
+  position: absolute;
+  left: 35px;
+  font-size: 15px;
+}
+.main .main-all .main-bottom form .check-in span {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
+.main .main-all .checkbox #secondch {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 3px solid blue;
+  height: 13px;
+  width: 13px;
+  padding: 5px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */
