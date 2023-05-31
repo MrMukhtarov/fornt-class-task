@@ -1,106 +1,105 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.main{
-    border: 1px solid black;
-    padding: 3rem 0;
-    margin: 1rem;
-    border-radius: 5px;
-    .main-all{
-        .main-top{
-            border-bottom: 1px solid black;
-            
-            ul{
-                li{
-                    list-style: none;
-                    a{
-                        color: black;
-                        font-size: 15px;
-                        text-decoration: none;
-                        transition: all .3s;
-                        &:hover{
-                            color: blue;
-                        }
-                    }
-                }
+.main {
+  border: 1px solid black;
+  padding: 3rem 0;
+  margin: 1rem;
+  border-radius: 5px;
+  .main-all {
+    .main-top {
+      border-bottom: 1px solid black;
+
+      ul {
+        li {
+          list-style: none;
+          a {
+            color: black;
+            font-size: 15px;
+            text-decoration: none;
+            transition: all 0.3s;
+            &:hover {
+              color: blue;
             }
+          }
         }
-        .main-bottom{
-            padding: 2rem 0;
-            .main-bottom-top{
-                text-align: right;
-                margin-bottom: 15px;
-                color: blue;
-            }
-            form{
-                
-                .going{
-                    width: 500px;
-                    border: 1px solid black;
-                    padding: 0 12px;
-                    border-radius: 7px;
-                    height: 60px;
-                    position: relative;
-                    display: flex;
-                    justify-content: start;
-                    .going-input{
-                        border: none;
-                        outline: none;
-                        margin-left: 20px;
-                    }
-                    span{
-                        position: absolute;
-                        left: 30px;
-                        top: 15px;
-                    }
-                    i{
-                        position: absolute;
-                        left: 10px;
-                        top: 20px;
-                    }
-                }
-                .check-in{
-                    width: 300px;
-                    border: 1px solid black;
-                    padding: 0 12px;
-                    border-radius: 7px;
-                    height: 60px;
-                    position: relative;
-                    .check-in-input{
-                        border: none;
-                        outline: none;
-                    }
-                    i{
-                        position: absolute;
-                        left: 7px;
-                        top: 17px;
-                        font-size: 20px;
-                    }
-                    #in-label{
-                        position: absolute;
-                        left: 35px;
-                        font-size: 15px;
-                    }
-                    span{
-                        position: absolute;
-                        left: 40px;
-                        top: 20px;
-                    }
-                }
-            }
-        }
-        .checkbox{
-            #secondch{
-                appearance: none;
-                border: 3px solid blue;
-                height: 13px;
-                width: 13px;
-                padding: 5px;
-                border-radius: 5px;
-            }
-        }
+      }
     }
+    .main-bottom {
+      padding: 2rem 0;
+      .main-bottom-top {
+        text-align: right;
+        margin-bottom: 15px;
+        color: blue;
+      }
+      form {
+        .going {
+          width: 500px;
+          border: 1px solid black;
+          padding: 0 12px;
+          border-radius: 7px;
+          height: 60px;
+          position: relative;
+          display: flex;
+          justify-content: start;
+          .going-input {
+            border: none;
+            outline: none;
+            margin-left: 20px;
+          }
+          span {
+            position: absolute;
+            left: 30px;
+            top: 15px;
+          }
+          i {
+            position: absolute;
+            left: 10px;
+            top: 20px;
+          }
+        }
+        .check-in {
+          width: 300px;
+          border: 1px solid black;
+          padding: 0 12px;
+          border-radius: 7px;
+          height: 60px;
+          position: relative;
+          .check-in-input {
+            border: none;
+            outline: none;
+          }
+          i {
+            position: absolute;
+            left: 7px;
+            top: 17px;
+            font-size: 20px;
+          }
+          #in-label {
+            position: absolute;
+            left: 35px;
+            font-size: 15px;
+          }
+          span {
+            position: absolute;
+            left: 40px;
+            top: 20px;
+          }
+        }
+      }
+    }
+    .checkbox {
+      #secondch {
+        appearance: none;
+        border: 3px solid blue;
+        height: 13px;
+        width: 13px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
 }
